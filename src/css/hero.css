@@ -10,7 +10,17 @@
   position: relative;
 }
 
-.main-title {}
+.main-title {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 1001px;
+
+  margin: 0 auto 24px;
+}
 
 .hero-descr {
   max-width: 597px;

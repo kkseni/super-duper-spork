@@ -1,0 +1,39 @@
+.hero {
+  padding: 235px 0 180px;
+  background: linear-gradient(360deg, rgba(17, 19, 31, 0.8) 15.05%, rgba(17, 19, 31, 0.8) 75.3%, rgba(17, 19, 31, 0.8) 98.27%),
+    url(../img/hero-background.webp);
+  /* width: 1280px; */
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main-title {}
+
+.hero-descr {
+  max-width: 597px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 48px;
+}
+
+.hero-link {
+  border-radius: 15px;
+  padding: 16px 40px;
+  width: 179px;
+  height: 52px;
+  background: #1b414b;
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}

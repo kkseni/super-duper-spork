@@ -1,19 +1,39 @@
-<header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+<header class="main-header">
+  <!-- (nav>a+(ul>li*3>a))+ul>li*3>a -->
+  <div class="container header-container">
+    <nav class="main-navigation">
+      <a href="./index.html" class="main-logo">yachtjet</a>
+      <ul class="navigation-list">
+        <li class="navigation-list-item">
+          <a href="#about" class="navigation-item-link">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="navigation-list-item">
+          <a href="#yachts" class="navigation-item-link">Yachts</a>
+        </li>
+        <li class="navigation-list-item">
+          <a href="#reviews" class="navigation-item-link">Reviews</a>
         </li>
       </ul>
     </nav>
+    <ul class="header-social-list">
+      <li class="social-item">
+        <a href="https://www.instagram.com/" target="_blank" class="header-social-link"><svg width="19" height="19"
+            class="header-soc-link-svg">
+            <use href="./img/icons.svg#icon-instagram" />
+          </svg></a>
+      </li>
+      <li class="social-item">
+        <a href="https://www.youtube.com/" target="_blank" class="header-social-link"><svg width="19" height="19"
+            class="header-soc-link-svg">
+            <use href="./img/icons.svg#icon-youtube" />
+          </svg></a>
+      </li>
+      <li class="social-item">
+        <a href="https://www.facebook.com/" target="_blank" class="header-social-link"><svg width="19" height="19"
+            class="header-soc-link-svg">
+            <use href="./img/icons.svg#icon-facebook" />
+          </svg></a>
+      </li>
+    </ul>
   </div>
 </header>

@@ -1,125 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/super-duper-spork/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>YachtJet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
+      integrity="sha512-6vVDKjypi9edZc0plLTyYuWSM6E+oQCH9cJbsaKFvsajojwPjgqutD5mypLKUalFKV7blxIwqTNAxD2CW1XiNw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script type="module" crossorigin src="/super-duper-spork/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/super-duper-spork/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/super-duper-spork/assets/index-DyetqKyr.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/super-duper-spork/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+    <header class="main-header">
+  <!-- (nav>a+(ul>li*3>a))+ul>li*3>a -->
+  <div class="container header-container">
+    <nav class="main-navigation">
+      <a href="./index.html" class="main-logo">yachtjet</a>
+      <ul class="navigation-list">
+        <li class="navigation-list-item">
+          <a href="#about" class="navigation-item-link">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="navigation-list-item">
+          <a href="#yachts" class="navigation-item-link">Yachts</a>
+        </li>
+        <li class="navigation-list-item">
+          <a href="#reviews" class="navigation-item-link">Reviews</a>
         </li>
       </ul>
     </nav>
-  </div>
-</header>
-
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/super-duper-spork/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
-
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <ul class="header-social-list">
+      <li class="social-item">
+        <a href="https://www.instagram.com/" target="_blank" class="header-social-link"><svg width="19" height="19"
+            class="header-soc-link-svg">
+            <use href="/super-duper-spork/assets/icons-CIwjFRnN.svg#icon-instagram" />
+          </svg></a>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+      <li class="social-item">
+        <a href="https://www.youtube.com/" target="_blank" class="header-social-link"><svg width="19" height="19"
+            class="header-soc-link-svg">
+            <use href="/super-duper-spork/assets/icons-CIwjFRnN.svg#icon-youtube" />
+          </svg></a>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="social-item">
+        <a href="https://www.facebook.com/" target="_blank" class="header-social-link"><svg width="19" height="19"
+            class="header-soc-link-svg">
+            <use href="/super-duper-spork/assets/icons-CIwjFRnN.svg#icon-facebook" />
+          </svg></a>
       </li>
     </ul>
   </div>
-</article>
+</header>
 
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero">
+    <h1 class="main-title">
+      Explore the High Seas with Our Luxury Yacht Rentals
+    </h1>
+    <p class="hero-descr">
+      Experience the freedom and luxury of yachting on the open seas. Choose
+      from our top-of-the-line yachts and embark on an unforgettable journey
+      surrounded by breathtaking views and state-of-the-art amenities.
+    </p>
+
+    <a href="#rental" class="hero-link">Yacht rental</a>
+  </section>
+
+
+      
+
+
+      <section class="">
+  <div class="container">
+   
+  </div>
+</section>
+
+      <section>
+    <div class="container"></div>
+</section>
     </main>
-
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+    
   </div>
 </footer>
 
